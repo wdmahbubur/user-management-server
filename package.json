@@ -1,0 +1,39 @@
+{
+  "name": "user-management-server",
+  "version": "0.0.1",
+  "description": "Practice and implement typscript prisma graphql postgress with node js",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.ts",
+    "dev": "nodemon dist/index.ts",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdmahbubur/user-management-server.git"
+  },
+  "author": "Md. Mahbubur Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdmahbubur/user-management-server/issues"
+  },
+  "homepage": "https://github.com/wdmahbubur/user-management-server#readme",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.8.10",
+    "apollo-server": "^3.12.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "prisma": "^5.5.2"
+  }
+}
